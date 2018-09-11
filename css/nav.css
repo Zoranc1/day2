@@ -1,0 +1,56 @@
+nav ul li a {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+nav ul li {
+    border-bottom: 1px solid #444;
+    background-color: #1D2026;
+    font-size: 1em;
+    padding: 10px 5px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    
+}
+
+nav ul li:hover {
+    background-color: #555;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+body {
+    background-color: #292E37;
+}
+.lake{
+    display: block;
+    width: 100%;
+}
+.cliff_of_mohor{
+    display:none;
+
+}
+h3{
+    text-align: center;
+    color: white;
+}
+@media (min-width: 414px){
+    nav ul li{
+        display:inline-block;
+        font-size: 20px;
+        width: 100px;
+    }
+    .lake{
+        display: none;
+    }
+    .cliff_of_mohor{
+        display: block;
+        width: 100%;
+    }
+}
+
